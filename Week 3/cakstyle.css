@@ -1,0 +1,38 @@
+header {
+  background-color: pink;
+    }
+h1 {
+  text-align: center;
+    font: bolder;
+    text-decoration: dotted;
+    color: blue;
+    font-size: 5rem;
+    text-transform: capitalize;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 70px; 
+      }
+
+ h2 {
+  text-align: center;
+  color: black;
+ font-size: 3 rem;
+ margin: auto;
+    padding-top: 10px;
+    padding-bottom: 70px; 
+}    
+
+p {
+  text-align: center;
+    
+      }
+      .dottedBorder {
+        border: 2px dotted purple;
+
+      }
+      footer {
+        text-align: center;
+        padding: 3px;
+        background-color: pink;
+        color: black;
+      }
