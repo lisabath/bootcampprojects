@@ -1,0 +1,17 @@
+.body {
+    background-color: white;
+}
+
+.main {
+    background-color: yellow;
+    padding: 4rem 0;
+    justify-content: center;
+    background-image:  url("../bulb.html");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: center;
+
+}
+.main h1 {
+   
+}

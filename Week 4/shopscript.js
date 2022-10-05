@@ -1,4 +1,4 @@
-
+alert ('hello world');
 // Create an Array:
 let items = ["apple", "milk", "bread"];
 
