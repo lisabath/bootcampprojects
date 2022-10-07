@@ -24,7 +24,7 @@
         }
 
         .background1 {
-            background-image: url("https://images.unsplash.com/photo-1456926631375-92c8ce872def?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+            background-image: src=./;
         }
         
         .background2 {

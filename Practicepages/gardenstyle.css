@@ -1,0 +1,43 @@
+Header {
+    background-image: url(../Practicepages/garden.jpeg);
+    background-color:white;
+    background-size: cover;
+    width: 80%;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: top;
+    font-size: 3rem;
+    color:navy;
+}
+
+h2 {font-size: 2rem;
+    color: red;
+
+}
+
+table {
+    text-align: left;
+    padding-top: 40px;
+}
+.left {
+    float: left;
+    width: 40%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  
+  .right {
+   float: right;
+   width: 40%;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 30px;
+  padding-bottom: 30px; 
+  }

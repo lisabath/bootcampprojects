@@ -6,26 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./toggle.css">
+    <script defer src="toggle.js"></script>
 </head>
 <body>
-<div class="main">
-     <h1>Toggle Trial</h1>
-     <button onclick="changeMe()" id="changeMe">Change Me</button> 
-     </div>
-     
+<div class="image-container">
 
-<script>
-    function changeMe (){
-        const body = document.getElementById ("main");
-        if (body.classlist.contains('image'))
-        {
-            body.classList.remove ('image');
-        }
-        else {
-            body.classlist.add ('image');
-        }
-}
-</script>
+     <h1>Toggle Trial</h1>
+     <P>click the button to see owl or dog</P>    
+     
+     <button onclick="changeMe()" id="changeMe">Change animal</button> 
+
+     <img src="./IMG_1360.jpg" alt="dog" id="pic1" style="visibility:visible" height="200" width="200"> 
     
+     <img src="./IMG_1375.jpg" alt="owl" id="pic2" style="visibility:hidden" height="200" width="200">
+
+</div>
 </body>
 </html>

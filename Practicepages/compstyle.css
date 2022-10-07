@@ -1,0 +1,27 @@
+* {
+  border: 1px solid greenyellow;
+ 
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;   
+    color: blue;
+    opacity: 0.8;   
+}
+
+body {
+  font-size: 2rem;
+  color: black;
+  padding-right: 50px;
+  background-color: beige;
+   
+}
+
+.title {
+  color: darkblue;
+
+}
+.uppercase{
+text-transform: uppercase;
+}
