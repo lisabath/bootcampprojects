@@ -1,0 +1,67 @@
+.wrapper{
+    background-color:Very Dark Blue hsl (216, 12%, 8%);
+}
+
+.card1 {
+
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: darkblue hs1 (213, 19%, 18%);
+    border-radius: 50%;
+    box-sizing: border-box;
+} 
+.card2 {
+
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: darkblue hs1 (213, 19%, 18%);
+    border-radius: 50%;
+    box-sizing: border-box;
+} 
+.header {
+    align-items: left;
+}
+
+.radio {
+   
+        background-color: grey;
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      
+input[type="radio"]{
+    display: none;
+}
+
+input [type="radio"]:active + label{
+ background-color: Orange hsl(25, 97%, 53%);
+}
+input [type="radio"]:checked + label{
+background-color: Light Grey hsl(217, 12%, 63%)
+}
+
+input [type="submit"]{
+width: 100%;
+padding: 15px;
+border-radius: 30px;
+font-family: 'Overpass', sans-serif;
+font-size: 15px;
+font-weight: 500;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: white;
+background-color: Orange hsl(25, 97%, 53%);
+}

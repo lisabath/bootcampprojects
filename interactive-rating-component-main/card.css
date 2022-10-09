@@ -1,0 +1,74 @@
+body {
+width: 100vw;
+height: 100vw;
+padding: 0%;
+margin: 0%;
+background-color:hsl(216, 12%, 8%);
+}
+
+.outerCard {
+    width: 30%;
+    height: 50%;
+    margin: auto;
+    align-items: centre;
+    padding: 25px;
+    color: lightgrey;
+    background-color:hsl(213, 19%, 18%);
+}
+.starLogo {
+    float: left;}
+
+ .outerCard .text h2
+{text-align: justify;
+ color: white;
+        
+ }
+
+.outerCard .text
+{ font-size: 15px;
+    text-align: justify;
+
+}
+
+.radioButtons{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    height: 15%;
+}
+.radioButtons input{
+    background-color: grey
+    height 50%;
+}
+.submit text{
+color: white;
+}
+
+.submit button{
+    width: 100%;
+    background-color: orange;
+   
+}
+div {
+    width: 30%;
+    height: 50%;
+    align-items: centre;
+    padding: 2%;
+    color: lightgrey;
+    background-color:hsl(213, 19%, 18%);
+}
+
+.midImage{
+    float: flex;
+    background-color: white;
+    color: blueviolet;
+}
+
+ratingText h2{
+    text-align: justify;
+    color: white; 
+}
+.ratingtText p {
+text-align: justify;
+color: light grey;
+}    

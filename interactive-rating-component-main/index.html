@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> 
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      }
+      .attribution a{
+          color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="card1">
+        <div class="card_header">
+          <image src="./images/icon-star.svg"></image>          
+        </div>
+        <div class="card_text">
+          <h3>How did we do?</h3>
+          <p>Please let us know how we did with your support request. All feedback is appreciated 
+            to help us improve our offering!</p></div>
+
+          <div class="card_ratings-form">
+             <form id="ratings" onsubmit="submitRatings(event)">
+                <div class="form-row buttons">
+                <label for="r1">1</label>
+                <input type="radio" id="r1" name="rating" value="1">
+                <label for="r2">2</label>
+                <input type="radio" id="r2" name="rating" value="2">
+                <label for="r3">3</label>
+                <input type="radio" id="r3" name="rating" value="3">
+                <label for="r4">4</label>
+              <input type="radio" id="r4" name="rating" value="4">
+                <label for="r5">5</label>
+              <input type="radio" id="r5" name="rating" value="5">
+              </div>
+            <button type="submit">Submit></button>
+      </form> 
+      </div>
+
+<div id="submission" class="state">
+  <image src="../interactive-rating-component-main/design/desktop-thank-you-state.jpg">
+<p id="ratingOutput"></p>
+
+<div class="card2">
+  <div class="card_header"> 
+    <img src="./images/illustration-thank-you.svg">
+  </div>
+<div class="card_selection">
+  You selected <!-- Add rating here --> out of 5
+</div>
+ <div class="card_text">
+<h3>Thank you!</h3>
+
+  <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!</p>
+</div>
+</div>
+</div>
+
+ <script>
+ let currentStep=1;
+  function submitRatings (event){
+  }
+//submit form hide 1 and show 2 with rating selected
+    event.preventDefault();
+    const form = document.getElementById ('ratings');
+    const selectedRatings = document.querySelector('input(name=rating):checked');
+    currentStep=1;
+    if (currentStep = 1) {
+      card.classlist.remove ('card1');
+      card.classList.add ('card2');  
+     } 
+
+  
+ </script>
+  <footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+ 
+</body>
+</html>
