@@ -11,21 +11,24 @@ submitButton.addEventListener('click', (e) => {
 
 let outerTwo = document.createElement("div")
 let newImage = document.createElement("img")
-let ratingText = document.createElement("h4")
-let thankText = document.createElement("h2")
-let paraText = document.createElement("h4")
+let ratingText = document.createElement("div")
+let thankText = document.createElement("div")
+let paraText = document.createElement("div")
 
 newImage.src = "./images/illustration-thank-you.svg";
-newImage.className="midImage"
-ratingText = "You selected" + selectedRadioButton +  'out of 5';
-ratingText.className = "ratingText"
-thankText ="Thank you!";
-thankText.className = "ThankText"
-paraText = 
-"We appreciate you taking the time to give rating.If you ever need more support, don't hestitate to get in touch";
-paraText.className = "paraText"
+newImage.className="midImage";
 
-outerTwo.className = "OuterCard"
+ratingText.innerHTML = "You selected " + selectedRadioButton +  ' out of 5 ';
+ratingText.className="ratingText";
+
+thankText.innerHTML ="Thank you!";
+thankText.className = "thankText";
+
+paraText.innerHTML = 
+"We appreciate you taking the time to give rating.If you ever need more support, don't hestitate to get in touch";
+paraText.className = "paraText";
+
+outerTwo.className = "outerCard"
 outerTwo.append(newImage)
 outerTwo.append(ratingText)
 outerTwo.append(thankText)

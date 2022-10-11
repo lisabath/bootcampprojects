@@ -1,74 +1,125 @@
 body {
-width: 100vw;
-height: 100vw;
-padding: 0%;
-margin: 0%;
-background-color:hsl(216, 12%, 8%);
+    height: 100vh;
+    width: 100vw;
+    background-color:hsl(216, 12%, 8%);
+    font-family: sans-serif;
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .outerCard {
-    width: 30%;
-    height: 50%;
-    margin: auto;
-    align-items: centre;
-    padding: 25px;
+    flex-direction: column;
+    width: 50%;
+    height: 40%;
+    border-radius: 30px;
     color: lightgrey;
     background-color:hsl(213, 19%, 18%);
 }
 .starLogo {
     float: left;}
 
- .outerCard .text h2
-{text-align: justify;
- color: white;
-        
+ .outerCard .text h2{
+    font-size: 22px;
+    padding-top: 15px;
+    color: white;       
  }
 
-.outerCard .text
-{ font-size: 15px;
-    text-align: justify;
+.outerCard .text{ 
+    font-size: 10px;
+    margin: 30px;
 
 }
 
 .radioButtons{
+    width: 100%;
+    height: 20%;
+    flex-direction: row;
     display: flex;
-    background-color: white;
-    justify-content: space-around;
-    height: 15%;
+    background-color: yellow;
+    justify-content: space-between;
 }
 .radioButtons input{
-    background-color: grey
-    height 50%;
+    height: 30px;
+    width: 30px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: hsl(213, 19%, 18%) ;
+    border-radius: 50%;
+    background-origin: border-box;
 }
-.submit text{
-color: white;
+input:hover, label:hover {
+    cursor: pointer;
+}
+#option1:after {
+    content: "1";
+}
+#option2:after {
+    content: "2";
+}
+#option3:after {
+    content: "3";
+}
+#option4:after {
+    content: "4";
+}#option5:after {
+    content: "5";
 }
 
-.submit button{
+input[type="radio"]:active + label {
+    background-color: hsl(25, 97%, 53%);
+}
+
+input[type="radio"]:checked + label {
+    background-color: hsl(217, 12%, 63%);
+}
+.submit{
+    width:100%;
+    height:20%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#submitButton{
+    border-radius: 20%;
     width: 100%;
+    height: 90%;
+    color: white;
     background-color: orange;
    
 }
-div {
-    width: 30%;
-    height: 50%;
-    align-items: centre;
-    padding: 2%;
-    color: lightgrey;
-    background-color:hsl(213, 19%, 18%);
+/** card 2*/
+#result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
-
 .midImage{
     float: flex;
+    margin-left: 30%;
     background-color: white;
     color: blueviolet;
 }
 
-ratingText h2{
-    text-align: justify;
-    color: white; 
+.ratingText{
+    text-align: center;
+    width: 100%;
+    margin:0;
+    font-size: 26px;
 }
-.ratingtText p {
-text-align: justify;
-color: light grey;
-}    
+.thankText {
+    text-align: center;
+    width: 100%;
+}
+
+.paraText {
+    text-align: center;
+    width: 100%;
+}
